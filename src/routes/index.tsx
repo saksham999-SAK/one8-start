@@ -75,7 +75,47 @@ function App() {
         </Card>
       </section>
 
-      
+      {/* Features */}
+      <section>
+        <h2 className="mb-8 text-3xl font-bold">
+          Why Shop With Us?
+        </h2>
+
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          {features.map((feature) => (
+            <Card key={feature.title} className="p-6">
+              <div className="text-4xl">{feature.icon}</div>
+
+              <CardTitle className="mt-4 text-xl">
+                {feature.title}
+              </CardTitle>
+
+              <CardDescription className="mt-2">
+                {feature.description}
+              </CardDescription>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      {/* Categories */}
+      <section>
+        <h2 className="mb-8 text-3xl font-bold">
+          Shop by Category
+        </h2>
+
+        <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-6">
+          {categories.map((category) => (
+            <Card
+              key={category}
+              className="cursor-pointer p-8 text-center transition hover:shadow-lg"
+            >
+              <CardTitle>{category}</CardTitle>
+            </Card>
+          ))}
+        </div>
+      </section>
+
       {/* Stats */}
       <section>
         <div className="grid gap-6 md:grid-cols-4">
