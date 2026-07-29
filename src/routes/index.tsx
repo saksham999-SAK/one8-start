@@ -117,66 +117,7 @@ function App() {
       </section>
 
       {/* Stats */}
-      <section>
-        <div className="grid gap-6 md:grid-cols-4">
-          <Card className="p-8 text-center">
-            <h3 className="text-4xl font-bold">10K+</h3>
-            <p className="mt-2 text-muted-foreground">
-              Products
-            </p>
-          </Card>
-
-          <Card className="p-8 text-center">
-            <h3 className="text-4xl font-bold">50K+</h3>
-            <p className="mt-2 text-muted-foreground">
-              Customers
-            </p>
-          </Card>
-
-          <Card className="p-8 text-center">
-            <h3 className="text-4xl font-bold">99%</h3>
-            <p className="mt-2 text-muted-foreground">
-              Happy Buyers
-            </p>
-          </Card>
-
-          <Card className="p-8 text-center">
-            <h3 className="text-4xl font-bold">24/7</h3>
-            <p className="mt-2 text-muted-foreground">
-              Support
-            </p>
-          </Card>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section>
-        <Card className="bg-slate-900 p-12 text-center text-white">
-          <CardTitle className="text-4xl">
-            Ready to Start Shopping?
-          </CardTitle>
-
-          <CardDescription className="mt-4 text-slate-300">
-            Browse thousands of products with fast delivery and secure
-            checkout.
-          </CardDescription>
-
-          <div className="mt-8">
-            <Link
-              to="/products"
-              className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 font-semibold text-slate-900"
-            >
-              Explore Products
-              <ArrowRightIcon size={18} />
-            </Link>
-          </div>
-        </Card>
-      </section>
-
-      {/* Footer */}
-      <footer className="border-t py-10 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} StartShop. Built with TanStack Start.
-      </footer>
+     
     </div>
   )
 }
