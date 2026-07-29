@@ -174,7 +174,9 @@ function App() {
       </section>
 
       {/* Footer */}
-     
+      <footer className="border-t py-10 text-center text-sm text-muted-foreground">
+        © {new Date().getFullYear()} StartShop. Built with TanStack Start.
+      </footer>
     </div>
   )
 }
