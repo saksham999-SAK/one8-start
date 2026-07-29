@@ -99,22 +99,7 @@ function App() {
       </section>
 
       {/* Categories */}
-      <section>
-        <h2 className="mb-8 text-3xl font-bold">
-          Shop by Category
-        </h2>
-
-        <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-6">
-          {categories.map((category) => (
-            <Card
-              key={category}
-              className="cursor-pointer p-8 text-center transition hover:shadow-lg"
-            >
-              <CardTitle>{category}</CardTitle>
-            </Card>
-          ))}
-        </div>
-      </section>
+   
 
       {/* Stats */}
       <section>
