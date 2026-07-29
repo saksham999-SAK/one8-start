@@ -150,28 +150,7 @@ function App() {
       </section>
 
       {/* CTA */}
-      <section>
-        <Card className="bg-slate-900 p-12 text-center text-white">
-          <CardTitle className="text-4xl">
-            Ready to Start Shopping?
-          </CardTitle>
-
-          <CardDescription className="mt-4 text-slate-300">
-            Browse thousands of products with fast delivery and secure
-            checkout.
-          </CardDescription>
-
-          <div className="mt-8">
-            <Link
-              to="/products"
-              className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 font-semibold text-slate-900"
-            >
-              Explore Products
-              <ArrowRightIcon size={18} />
-            </Link>
-          </div>
-        </Card>
-      </section>
+     
 
       {/* Footer */}
       <footer className="border-t py-10 text-center text-sm text-muted-foreground">
